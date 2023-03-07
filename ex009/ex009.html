@@ -1,0 +1,91 @@
+<!-- Comandos no geral se iniciam com <x> e fecham com  </x>, havendo algumas exceçoes -->
+<!---Iniciar o Doc basta aperta ! e dar enter. O corpo inicial é preenchido automaticamente-->
+<!DOCTYPE html>
+<!--Sempre alterar a linguagem pra portugues-->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!---Link-favicon utilizado pra inserir icone na aba do site-->
+    <link rel="shortcut icon" href="imgs/img ex004/Social-Media-Icons-Glossy-Social-HTML5.512.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo que aparece na aba-->
+    <title>Listas</title>
+</head>
+<body>
+    <!--h1 é o titulo maior do site-->
+    <h1>Trabalhando com Listas</h1>
+    <!--h2 é o titulo menor do site-->
+    <h2>Listas Ordenadas</h2>
+    <!--ol são listas ordenadas-->
+    <ol type="A" start="1">
+    <!--li são as listas-->
+    <li> Acordar</li>
+    <li>Ligar para o João</li>
+    <li>Tomar café</li>
+    <li>Escovar os dentes</li>
+    <li>Trabalho</li>
+    <li>Casa</li>
+    <li>Janta</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <!--ul São as listas sem ordem, marcadas por quadrados, circulos-->
+    <ul type="square"> <!-- disc circle square -->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol>
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <!--type marca o simbolo que vai ficar nas listas, podemos selecionar o inicio atraves do comando start = (X)-->
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <!--Listas podem ser inseridas dentro de outras listas-->
+    <h2>Meus Jogos favoritos</h2>
+    <ol>
+        <li>PC</li>
+        <ul type = "square">
+            <li>League Of Legends</li>
+            <li>Valorant</li>
+            <li>Combat Arms</li>
+        </ul>
+        <li>PlayStation</li>
+        <ol>
+            <li>Fortnite</li>
+            <li>The Crew 2</li>
+            <li>Mortal Kombat 11</li>
+        </ol>
+        <li>Xbox</li>
+        <ul type = "square">
+            <li>Tomb Raider</li>
+            <li>PES 2013</li>
+            <li>Mortal Kombat 9</li>
+    </ol>
+    <!-- Listas de definições tem prioridade na aba de pesquisa de buscadores. dt é o definidor, dd a definição -->
+    <h2>Lista de definições</h2>
+    <d1>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação de conteudo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+    </d1>
+</body>
+</html>
